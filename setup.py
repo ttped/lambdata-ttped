@@ -13,7 +13,7 @@ with open("README.MD", "r") as fh:
 
 setuptools.setup(
     name='lambdata_ttped',
-    version='0.0.1',
+    version='0.0.2',
     author="ttped",
     description="A collection of data science functions",
     long_description=LONG_DESCRIPTION,
