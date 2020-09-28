@@ -1,9 +1,0 @@
-README.md
-setup.py
-lambdata_ttped.egg-info/PKG-INFO
-lambdata_ttped.egg-info/SOURCES.txt
-lambdata_ttped.egg-info/dependency_links.txt
-lambdata_ttped.egg-info/requires.txt
-lambdata_ttped.egg-info/top_level.txt
-lambdata_ttped2/__init__.py
-lambdata_ttped2/example_module.py

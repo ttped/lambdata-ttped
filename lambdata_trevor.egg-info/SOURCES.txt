@@ -1,0 +1,9 @@
+README.md
+setup.py
+lambdata_trevor.egg-info/PKG-INFO
+lambdata_trevor.egg-info/SOURCES.txt
+lambdata_trevor.egg-info/dependency_links.txt
+lambdata_trevor.egg-info/requires.txt
+lambdata_trevor.egg-info/top_level.txt
+lambdata_ttped2/__init__.py
+lambdata_ttped2/example_module.py
