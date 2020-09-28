@@ -1,7 +1,7 @@
-Metadata-Version: 1.2
+Metadata-Version: 2.1
 Name: lambdata-ttped
 Version: 0.0.1
-Summary: A collect of data science functions
+Summary: A collection of data science functions
 Home-page: https://github.com/ttped/lambdata_ttped
 Author: ttped
 License: UNKNOWN
@@ -11,5 +11,6 @@ Description: # lambdata-ttped
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS independent
+Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
+Description-Content-Type: text/markdown

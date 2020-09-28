@@ -1,5 +1,7 @@
 README.md
 setup.py
+lambdata_ttped/__init__.py
+lambdata_ttped/example_module.py
 lambdata_ttped.egg-info/PKG-INFO
 lambdata_ttped.egg-info/SOURCES.txt
 lambdata_ttped.egg-info/dependency_links.txt
