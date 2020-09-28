@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import datetime as dt
 from sklearn.model_selection import train_test_split
 
 def train_test_split(df, target, features_arr, test_size=.2):
@@ -18,17 +17,17 @@ def month_day_year_split(datetime_column):
     year = datetime_column.dt.year
     return month, day, year
 
-def train_test_split_date(df, target, features_arr, date_column_str, to_date):
-    X = df[features_arr]
-    y = df[target]
-
-    mask = df[df[date_column_str] <= to_date]
-    mask_not = ~mask
-
-    X_train = X[mask]
-    y_train = y[mask]
-
-    X_val = X[mask_not]
-    y_val = y[mask_not]
-
-    return X_train, X_val, y_train, y_val
+#def train_test_split_date(df, target, features_arr, date_column_str, to_date):
+#    X = df[features_arr]
+#    y = df[target]
+#
+#    mask = df[df[date_column_str] <= to_date]
+#    mask_not = ~mask
+#
+#    X_train = X[mask]
+#    y_train = y[mask]
+#
+#    X_val = X[mask_not]
+#    y_val = y[mask_not]
+#
+#    return X_train, X_val, y_train, y_val
