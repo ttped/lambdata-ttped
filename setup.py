@@ -12,13 +12,13 @@ with open("README.MD", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name='lambdata_ttped',
+    name='lambdata_trevor',
     version='0.0.2',
     author="ttped",
     description="A collection of data science functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url='https://github.com/ttped/lambdata_ttped',
+    url='https://github.com/ttped/lambdata_trevor',
     packages=setuptools.find_packages(),
     install_requires=REQUIRED,
     classifiers=[
