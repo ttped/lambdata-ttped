@@ -1,0 +1,9 @@
+README.md
+setup.py
+lambdata_t1.egg-info/PKG-INFO
+lambdata_t1.egg-info/SOURCES.txt
+lambdata_t1.egg-info/dependency_links.txt
+lambdata_t1.egg-info/requires.txt
+lambdata_t1.egg-info/top_level.txt
+lambdata_t2/__init__.py
+lambdata_t2/example_module.py

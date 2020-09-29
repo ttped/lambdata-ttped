@@ -1,2 +1,2 @@
 # lambdata-ttped
-Creating my own package
+Creating my own package and classes
