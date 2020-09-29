@@ -12,8 +12,8 @@ with open("README.MD", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name='lambdata_t1',
-    version='0.0.3',
+    name='lambdata_t2',
+    version='0.0.4',
     author="ttped",
     description="A collection of data science functions",
     long_description=LONG_DESCRIPTION,
