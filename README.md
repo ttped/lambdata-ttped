@@ -1,13 +1,12 @@
 # lambdata-ttped
-# A practice repository for creating module packages
 
-#What is it?
+# What is it?
 This is a repository for automating Data Science workflow
 
-#Main Features:
+# Main Features:
 Todo
 
-#Dependencies:
+# Dependencies:
 pandas
 numpy
 sklearn
