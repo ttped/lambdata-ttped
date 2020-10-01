@@ -6,6 +6,15 @@ from sklearn.metrics import mean_absolute_error
 
 
 class FastModel():
+    """A class to help speed up building models
+
+    Args:
+        dataframe: the dataframe you wish to analysis on
+        target: the feature you wish to predict from dataframe
+        features: the features you wish to train the data on
+    Returns:
+        Nothing
+    """
     df = None
     target = None
     features_arr = None
@@ -32,7 +41,16 @@ class FastModel():
 
 
     def tt_split(self, target, features_arr):
-        '''Saves a train test split to AutoDataScience'''
+        '''Saves a train test split to AutoDataScience
+        Args:
+            target: The target feature you wish to predict. Will be assigned X variables.
+            features: The features you wish to train on. Will be assigned Y variables.
+        Returns:
+            X_train: Training features
+            X_val: Validation features
+            y_train: Training target
+            y_val: Validation target
+        '''
         self.X = self.df[features_arr]
         self.y = self.df[target]
         self.X_train, self.X_val, self.y_train, self.y_val = train_test_split(self.X,
@@ -48,7 +66,12 @@ class FastModel():
 
 
     def set_model(self, model):
-        '''Sets the model'''
+        '''
+        Saves the model then applies a fit
+
+        Args:
+            model: The model you wish to use for the data
+        '''
         self.model = model
         self.model.fit(self.X_train, self.y_train)
         pass
@@ -82,19 +105,3 @@ def month_day_year_split(datetime_column):
 
 if __name__ == '__main__':
     pass
-    
-
-#def train_test_split_date(df, target, features_arr, date_column_str, to_date):
-#    X = df[features_arr]
-#    y = df[target]
-#
-#    mask = df[df[date_column_str] <= to_date]
-#    mask_not = ~mask
-#
-#    X_train = X[mask]
-#    y_train = y[mask]
-#
-#    X_val = X[mask_not]
-#    y_val = y[mask_not]
-#
-#    return X_train, X_val, y_train, y_val
